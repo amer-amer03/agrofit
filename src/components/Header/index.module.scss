@@ -1,7 +1,26 @@
-.home {
+@font-face {
+  font-family: Montserrat-Black;
+  src: url("../../../public/fonts/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../../../public/fonts/Montserrat-Bold.ttf");
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../../public/assets/images/header.jpg");
+  z-index: -1;
+  height: 740px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 35% bottom 45%;
+}
+.nav {
   display: flex;
   padding: 0px 65px;
   justify-content: space-between;
+  background: white;
 }
 .imgBox {
   display: flex;
@@ -9,4 +28,46 @@
 }
 .img {
   width: 135px;
+}
+.headerTextBox {
+  padding: 0px 65px;
+  color: white;
+}
+.title {
+  margin-top: 170px;
+  font-family: Montserrat-Black;
+  font-size: 64px;
+}
+.subtitle {
+  font-size: 32px;
+  font-family: Montserrat-Bold;
+  letter-spacing: 15px;
+}
+.description {
+  margin-top: 18px;
+  :nth-child(2) {
+    margin-top: 10px;
+  }
+}
+.buttons {
+  margin-top: 28px;
+}
+
+.buttonDark {
+  display: inline-block;
+  margin-left: 27px;
+  padding: 14px 36.5px;
+  background-color: #1b431b;
+  color: white;
+  border: 1px solid #1b431b;
+  border-radius: 4px;
+}
+.buttonDarkContent {
+  display: flex;
+
+  :nth-child(2) {
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: Montserrat-Bold;
+  }
 }

@@ -1,0 +1,19 @@
+.ourAdvantage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 32%;
+  margin: 12px 0px;
+  padding: 16px 23px 32px 23px;
+  background: white;
+  border-radius: 8px;
+}
+.title {
+  font-size: 24px;
+}
+.info {
+  margin-top: 16px;
+}
