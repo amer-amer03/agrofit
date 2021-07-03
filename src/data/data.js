@@ -92,3 +92,51 @@ export const productsData = [
     imageUrl: "assets/images/Mint.jpg",
   },
 ];
+
+export const homeGalleryData = [
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Tall.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Tall.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Tall.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+  {
+    imageUrl: "assets/images/Small.jpg",
+  },
+];

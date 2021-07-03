@@ -6,7 +6,7 @@ import styles from "./index.module.scss";
 
 const Header = () => {
   return (
-    <div className={styles.home}>
+    <header className={styles.home}>
       <div className={styles.header}>
         <div className={styles.nav}>
           <div className={styles.imgBox}>
@@ -43,7 +43,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
