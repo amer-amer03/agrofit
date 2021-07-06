@@ -1,6 +1,11 @@
+import { FC } from "react";
 import styles from "./index.module.scss";
 
-const AboutUs = () => {
+interface Props {
+  aboutUsRef: React.RefObject<HTMLDivElement>;
+}
+
+const AboutUs: FC<Props> = ({ aboutUsRef }) => {
   return (
     <div className={styles.aboutUs}>
       <div>
@@ -11,7 +16,9 @@ const AboutUs = () => {
         />
       </div>
       <div className={styles.info}>
-        <h3 className={styles.title}>О Нас</h3>
+        <h3 ref={aboutUsRef} className={styles.title}>
+          О Нас
+        </h3>
         <p className={styles.text}>
           ООО «АГРОФИТ», основано в 2001г. Основным видом деятельности
           предприятия является выращивание и реализация мяты перечной. Наше

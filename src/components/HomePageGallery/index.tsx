@@ -1,8 +1,7 @@
-import classNames from "classnames";
 import { homeGalleryData } from "../../data/data";
 import styles from "./index.module.scss";
 
-const Gallery = () => {
+const HomePageGallery = () => {
   const letters = [
     "a",
     "b",
@@ -25,7 +24,7 @@ const Gallery = () => {
     <div className={styles.gallery}>
       {homeGalleryData.map((item, i) => {
         return (
-          <div style={{ gridArea: letters[i] }} className={styles.item}>
+          <div key={i} style={{ gridArea: letters[i] }} className={styles.item}>
             <img
               className={styles.img}
               src={item.imageUrl}
@@ -37,4 +36,4 @@ const Gallery = () => {
     </div>
   );
 };
-export default Gallery;
+export default HomePageGallery;

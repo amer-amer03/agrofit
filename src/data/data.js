@@ -140,3 +140,26 @@ export const homeGalleryData = [
     imageUrl: "assets/images/Small.jpg",
   },
 ];
+
+export const ProductGalleryData = [
+  {
+    original: "assets/images/Small.jpg",
+    thumbnail: "assets/images/Small.jpg",
+  },
+  {
+    original: "assets/images/Tall.jpg",
+    thumbnail: "assets/images/Tall.jpg",
+  },
+  {
+    original: "assets/images/Small.jpg",
+    thumbnail: "assets/images/Small.jpg",
+  },
+  {
+    original: "assets/images/Small.jpg",
+    thumbnail: "assets/images/Small.jpg",
+  },
+  {
+    original: "assets/images/Small.jpg",
+    thumbnail: "assets/images/Small.jpg",
+  },
+];

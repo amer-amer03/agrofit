@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Montserrat-Black;
+  src: url("../../../public/fonts/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../../../public/fonts/Montserrat-Bold.ttf");
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../../public/assets/images/ProductHeader.jpg");
+  z-index: -1;
+  height: 478px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 35% bottom 45%;
+}
+
+.headerTextBox {
+  padding: 0px 65px;
+  color: white;
+}
+.title {
+  margin-top: 170px;
+  font-family: Montserrat-Black;
+  font-size: 64px;
+}

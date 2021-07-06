@@ -1,24 +1,18 @@
-import React from "react";
+import React, { FC } from "react";
 import Button from "../Button";
 import CameraIcon from "../icons/CameraIcon";
 import Nav from "../Nav";
 import styles from "./index.module.scss";
 
-const Header = () => {
+interface Props {
+  executeScroll?: (index: number) => void;
+}
+
+const HomePageHeader: FC<Props> = ({ executeScroll }) => {
   return (
     <header className={styles.home}>
       <div className={styles.header}>
-        <div className={styles.nav}>
-          <div className={styles.imgBox}>
-            <img
-              className={styles.img}
-              src="/assets/images/agrofitLogo.png"
-              alt="agrofit logo"
-            />
-          </div>
-          <Nav />
-        </div>
-
+        <Nav executeScroll={executeScroll} />
         <div className={styles.headerTextBox}>
           <h1 className={styles.title}>ЛЕКАРСТВЕННЫЕ ТРАВЫ</h1>
           <h2 className={styles.subtitle}>ВЫРАЩИВАНИЕ И РЕАЛИЗАЦИЯ</h2>
@@ -47,4 +41,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HomePageHeader;
