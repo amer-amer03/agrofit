@@ -1,0 +1,19 @@
+.contactInfo {
+  display: flex;
+}
+.title {
+  font-size: 24px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  padding: 24px 24px 40px 24px;
+}
+.text {
+  margin-top: 16px;
+}
+.img {
+  height: 100%;
+}

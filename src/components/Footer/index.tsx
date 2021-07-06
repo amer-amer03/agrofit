@@ -1,20 +1,17 @@
-import React from "react";
-import Nav from "../Nav";
 import styles from "./index.module.scss";
 
-const Header = () => {
+const Footer = () => {
   return (
-    <div className={styles.home}>
+    <footer className={styles.footer}>
       <div className={styles.imgBox}>
         <img
           className={styles.img}
-          src="/assets/agrofitLogo.png"
+          src="/assets/images/agrofitLogo.png"
           alt="agrofit logo"
         />
       </div>
-      <Nav />
-    </div>
+      <p>© Agrofit 2021</p>
+    </footer>
   );
 };
-
-export default Header;
+export default Footer;
